@@ -1,0 +1,245 @@
+[
+  {
+    "windows": {
+      "1": {
+        "1": {
+          "id": 1,
+          "index": 2,
+          "windowId": 1,
+          "highlighted": true,
+          "active": true,
+          "attention": false,
+          "pinned": false,
+          "status": "complete",
+          "hidden": false,
+          "discarded": false,
+          "incognito": false,
+          "width": 1920,
+          "height": 919,
+          "lastAccessed": 1655387348976,
+          "audible": false,
+          "mutedInfo": {
+            "muted": false
+          },
+          "isArticle": true,
+          "isInReaderMode": false,
+          "sharingState": {
+            "camera": false,
+            "microphone": false
+          },
+          "successorTabId": -1,
+          "cookieStoreId": "firefox-default",
+          "url": "https://go.dev/doc/tutorial/",
+          "title": "Tutorials - The Go Programming Language",
+          "favIconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAE6UlEQVRYR+1VW0xUVxRd516GmYFhBAWxQOUhVApKmkrEUeHDktakyDC8xKaJCVa0INo26UsUUmqMjYn98EOpH9bExJSHPFRqS7WRh+VRLRVFSwCHiGDL8BgeMwww9/TcS0uZYSIabdoP9s/N3WfvfdZde+19Cf5jI/Pdn5KSwvdYrDGUc9JRCGFUIEEsyV3Mo6Ae0/lkmPmslNAxQvCbIHAtlHDnG8vO1YEQ4XF3SADWatOincjUAUEgIQTEQDh6+npZUYFmS9JWyuEwKAmYD6ijc0JoBxWwv/5CSdG6+OS3GNDdIIIfoVwXx3Ff1JV98y3RxKW9Bt76HaWUtynCoRsC/EQfr3SF5+o1UL0YBJVfAJzdl8BJ6QJeoZRSrONmTJlNmBjqx2i3HqMPOmFouQGreUw65wjXIVBhhR1IyhOyjURpU68RKsQsCg6DZ0Qkhjvb0NdcL8XKPTwRsCUNXq9owMlkT0WCMDkh1dFfOAfLYD94uRI+0a+Dk8vRW1uFCeMg6yG9SzQJyXr5Ym//yANfglAK4iSD4VYTDM0NCE/bgQ2eSrysIFBwQP8UcHOMotU8F4vYy1UuQDCLlbGX3gmKG4yAEZMZXZeL4ROzGTKVmrFigsU4gF+OfioWMRGNNrXKfeWq2LD096G/VMjaDQTGbYOHUo4Mbw5eDj78Z1a4uJ9J8C8crgzcdi8Cf7ktMDOT31kDRTsDbOy8hz+aqqFY+gJ81sei7sPtYnN+ndaAE61anZVDXLx94ey2iGmFIHMZN6fg7PIXBylqRqY9O5YSvKRw3CELA3HsEcUQY0/Sy4QFXZVF6L5SAaaBNGkKNPHJKZA5nfaKWOe6fHMiwv39sNvbdkJNJhMyd2WgqbERWp0Onxw6gsM9gJ8zsGeZbWxLyy3szcqE0WjEZ/mH4L5JCxHw8P02dJR8jdGudgtHsK+uvLhgJjMqIbWUCEJC+K6PoFsfiTfdbYsWnDiBvIM5M59ZWFKK6yExCGODEO9hG5usS0BtTbUU6+bmhsu3O/BVPy9pq/XUUZHhivryIq14PpPJ5rSNvYdE5Z9A7PIliLMreqrgJA7m7J8BUFxahpoV0Qh3ACAlUYea6mtSrFqtlgAUGDg2DQY05GayW2lbfXnJShsAGm3KCNsFqo3HziJQ5YxMuxaYzWZkZ72LpoYG6JKS8F7u5zjCWuDDWrDXrgWtd+5gX/YeDLMW5OXnQxUdh0tDbI+y0az94G1GABn9qbzIzZ4BSdQxxwsl5KIGAu1UPVtmH588g6tlxdLY7kxPx87EOIcqHBdF2EthtE4fV2enSs/6imKJ/dktsAGgZnvxHaZu7zljSHG16SYyUpNmLpQrFCiprERoYJANiDFxDPsoOi3/uJ8YgJgiLpS1KiBUSeDCZt3ARqnn4hmoH9xGdet91N7Vg+c5xEYEY02QLwZDN8IjRgtnltczSdHM9oW4C2bbUwGw55RnPXyjPBc8+8M4slFegR8T8x2e/e18JgDUakXfD+fhZ+nDBsaMi9xZFBQGxsbRaObxUOUD703x/x4AsbKVsTA+NIC8YFd4qdjyZ3bv9wEcfzgJ5WJP8DI2Fo+xZ2Jgdt2teIRXfb0k15XOXnwvl/7c89pzAzCob4eZLRbRVOwHo/b1n/dyMeC5AXii2xwELQBYYGCBgQUGFhj43zHwJxRLPdQhUQhiAAAAAElFTkSuQmCC"
+        },
+        "3": {
+          "id": 3,
+          "index": 0,
+          "windowId": 1,
+          "highlighted": false,
+          "active": false,
+          "attention": false,
+          "pinned": false,
+          "status": "complete",
+          "hidden": false,
+          "discarded": false,
+          "incognito": false,
+          "width": 1920,
+          "height": 919,
+          "lastAccessed": 1655385139326,
+          "audible": false,
+          "mutedInfo": {
+            "muted": false
+          },
+          "isArticle": true,
+          "isInReaderMode": false,
+          "sharingState": {
+            "camera": false,
+            "microphone": false
+          },
+          "successorTabId": -1,
+          "cookieStoreId": "firefox-default",
+          "url": "https://eli.thegreenplace.net/2021/rest-servers-in-go-part-1-standard-library/",
+          "title": "REST Servers in Go: Part 1 - standard library - Eli Bendersky's website",
+          "favIconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAVElEQVQ4T2NkaGD4z0ABYKSqAf/rcTuGsZERqztRXAAzAF0xLnGQiUQZAFKIyxD6GoAtHLC6AFesEm0ANoUUhwGugCQ6EAfeAJLCgOxYICdTUpwbASwkVwGVaQzXAAAAAElFTkSuQmCC"
+        },
+        "5": {
+          "id": 5,
+          "index": 3,
+          "windowId": 1,
+          "highlighted": false,
+          "active": false,
+          "attention": false,
+          "pinned": false,
+          "status": "complete",
+          "hidden": false,
+          "discarded": false,
+          "incognito": false,
+          "width": 1920,
+          "height": 919,
+          "lastAccessed": 1655381787575,
+          "audible": false,
+          "mutedInfo": {
+            "muted": false
+          },
+          "isInReaderMode": false,
+          "sharingState": {
+            "camera": false,
+            "microphone": false
+          },
+          "successorTabId": -1,
+          "cookieStoreId": "firefox-default",
+          "url": "https://play-with-go.dev/",
+          "title": "play-with-go.dev",
+          "favIconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAE6UlEQVRYR+1VW0xUVxRd516GmYFhBAWxQOUhVApKmkrEUeHDktakyDC8xKaJCVa0INo26UsUUmqMjYn98EOpH9bExJSHPFRqS7WRh+VRLRVFSwCHiGDL8BgeMwww9/TcS0uZYSIabdoP9s/N3WfvfdZde+19Cf5jI/Pdn5KSwvdYrDGUc9JRCGFUIEEsyV3Mo6Ae0/lkmPmslNAxQvCbIHAtlHDnG8vO1YEQ4XF3SADWatOincjUAUEgIQTEQDh6+npZUYFmS9JWyuEwKAmYD6ijc0JoBxWwv/5CSdG6+OS3GNDdIIIfoVwXx3Ff1JV98y3RxKW9Bt76HaWUtynCoRsC/EQfr3SF5+o1UL0YBJVfAJzdl8BJ6QJeoZRSrONmTJlNmBjqx2i3HqMPOmFouQGreUw65wjXIVBhhR1IyhOyjURpU68RKsQsCg6DZ0Qkhjvb0NdcL8XKPTwRsCUNXq9owMlkT0WCMDkh1dFfOAfLYD94uRI+0a+Dk8vRW1uFCeMg6yG9SzQJyXr5Ym//yANfglAK4iSD4VYTDM0NCE/bgQ2eSrysIFBwQP8UcHOMotU8F4vYy1UuQDCLlbGX3gmKG4yAEZMZXZeL4ROzGTKVmrFigsU4gF+OfioWMRGNNrXKfeWq2LD096G/VMjaDQTGbYOHUo4Mbw5eDj78Z1a4uJ9J8C8crgzcdi8Cf7ktMDOT31kDRTsDbOy8hz+aqqFY+gJ81sei7sPtYnN+ndaAE61anZVDXLx94ey2iGmFIHMZN6fg7PIXBylqRqY9O5YSvKRw3CELA3HsEcUQY0/Sy4QFXZVF6L5SAaaBNGkKNPHJKZA5nfaKWOe6fHMiwv39sNvbdkJNJhMyd2WgqbERWp0Onxw6gsM9gJ8zsGeZbWxLyy3szcqE0WjEZ/mH4L5JCxHw8P02dJR8jdGudgtHsK+uvLhgJjMqIbWUCEJC+K6PoFsfiTfdbYsWnDiBvIM5M59ZWFKK6yExCGODEO9hG5usS0BtTbUU6+bmhsu3O/BVPy9pq/XUUZHhivryIq14PpPJ5rSNvYdE5Z9A7PIliLMreqrgJA7m7J8BUFxahpoV0Qh3ACAlUYea6mtSrFqtlgAUGDg2DQY05GayW2lbfXnJShsAGm3KCNsFqo3HziJQ5YxMuxaYzWZkZ72LpoYG6JKS8F7u5zjCWuDDWrDXrgWtd+5gX/YeDLMW5OXnQxUdh0tDbI+y0az94G1GABn9qbzIzZ4BSdQxxwsl5KIGAu1UPVtmH588g6tlxdLY7kxPx87EOIcqHBdF2EthtE4fV2enSs/6imKJ/dktsAGgZnvxHaZu7zljSHG16SYyUpNmLpQrFCiprERoYJANiDFxDPsoOi3/uJ8YgJgiLpS1KiBUSeDCZt3ARqnn4hmoH9xGdet91N7Vg+c5xEYEY02QLwZDN8IjRgtnltczSdHM9oW4C2bbUwGw55RnPXyjPBc8+8M4slFegR8T8x2e/e18JgDUakXfD+fhZ+nDBsaMi9xZFBQGxsbRaObxUOUD703x/x4AsbKVsTA+NIC8YFd4qdjyZ3bv9wEcfzgJ5WJP8DI2Fo+xZ2Jgdt2teIRXfb0k15XOXnwvl/7c89pzAzCob4eZLRbRVOwHo/b1n/dyMeC5AXii2xwELQBYYGCBgQUGFhj43zHwJxRLPdQhUQhiAAAAAElFTkSuQmCC"
+        },
+        "6": {
+          "id": 6,
+          "index": 4,
+          "windowId": 1,
+          "highlighted": false,
+          "active": false,
+          "attention": false,
+          "pinned": false,
+          "status": "complete",
+          "hidden": false,
+          "discarded": false,
+          "incognito": false,
+          "width": 1920,
+          "height": 919,
+          "lastAccessed": 1655365262008,
+          "audible": false,
+          "mutedInfo": {
+            "muted": false
+          },
+          "isInReaderMode": false,
+          "sharingState": {
+            "camera": false,
+            "microphone": false
+          },
+          "successorTabId": -1,
+          "cookieStoreId": "firefox-default",
+          "url": "https://gowebexamples.com/",
+          "title": "Go Web Examples - Learn Web Programming in Go by Examples",
+          "favIconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAABQVBMVEUAAABMUb9MUb9MUb9MUb9NUcD///9MUb9MUr9MUb9MUb9MUb9MUb9MUcBMUcBNUb9MUr9MUcBSUsVNU8FMUb9/f/9MUr9OYsRUVMZMUb9MZsxNUsBMUr9PV8FQV8BPV79NUr9UVMZNUsBMUsBMUcBMUr9MUb9VVb9NUsFmZsxMUr9MVcNMUcFNUsBPVcBNUb9/f79OUsBMUsBVVdRNUsBMUb9SUsNbW8hMUb9NUcBMUb9UVMZMUsBMUcBNVMNMUcBNUb9NUsJNUr9MUsFOWMROU8JMUb9NUsBNUsBMUcBMUcBOUcBMVcBMUb9NWMdMUr9fX79tbdpMU8JOUcBOU79UVMJVVb9NUcBcXNBQXclaWsNNUb9NUb9SUsBNU8FQV8RQV8JPU79OU8BNVb9NVcFMUr9NUr9NU8JMUb9OUsFNU8Dryh2OAAAAa3RSTlMA//77+ooB973hufTOp7+N0qofX9UC5g0J3QpmsR0pIMsSd4+arsgMTAWJHmqeLcYEXX0GrHQiDu2C2Buj7yqWwDu1Vxo38oDqwtpROZAXKAgHQ1U0FRiXCxMRSG0lTyMmQGIkIYWULnE+Uguq6hoAAAFtSURBVHic5VIFcsNADFTA4cRxHGiYGRqGBhuGMjPz/x9QyfaM/Ydoxmftrej2DrbLskfh7o4Cl301nQKGFkmncW2qOkQYLgyTtnGCv5NoT2OtEkwdOUMYjTnVAtSa9gU+mtCKPNreDIKcRoa/yNdYitcYvXrasl716Kdxi9AWBKiY0Ynw7/mnlcZY9y+onI0POTIGCixAlP67A+p1/Nd0he0IA5gH8GKhijDBAvpzgE2cZXIME8B+S3E2yGGABa5xdU4hT5mSJU/FgB/07cBRBw/EZF4Vl47PoD8CK67eJvg5a496kgVESacp9BnoYFN1jGR9HpE4+M0nxN8mkGnfw4Ebt9rs64WfEtzxOa7G6mxQMZBeh1koD4Wy5j5hbSNdFzTvLwV1TXQ5HySEaPrPNHxH5GnHIWGYxyJpiWkWnqYrcYLI2KjTlY7jyzCmlOHrTbrs1oa12VfFh5JLfg+6k5ZP8T50N5ceBbsN9g9J5iXjYJCdXQAAAABJRU5ErkJggg=="
+        },
+        "7": {
+          "id": 7,
+          "index": 5,
+          "windowId": 1,
+          "highlighted": false,
+          "active": false,
+          "attention": false,
+          "pinned": false,
+          "status": "complete",
+          "hidden": false,
+          "discarded": false,
+          "incognito": false,
+          "width": 1920,
+          "height": 919,
+          "lastAccessed": 1655365262805,
+          "audible": false,
+          "mutedInfo": {
+            "muted": false
+          },
+          "isArticle": true,
+          "isInReaderMode": false,
+          "sharingState": {
+            "camera": false,
+            "microphone": false
+          },
+          "successorTabId": -1,
+          "cookieStoreId": "firefox-default",
+          "url": "https://mccue.dev/pages/5-2-22-go-concurrency-in-java",
+          "title": "Go's Concurrency Examples in Java 19",
+          "favIconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAFBElEQVRYR+1XW28bVRicc/bi9aWxHSe9JE0DFRVRgJSqVV+IEEXh8lYkfgB/DyR4oyoIVaJSiyhpHopEGyoQaVKpSZzmYq+99t5O51unSJC4dnjhJZus1tqsz5lvvpn5NgqA4fm/HeoYwDEDR2OgJxnFH60VEteF5XlQWiPpBEAnhEnTIy05tAi5JbSXg1sbgzV1Ds70WcTFIqBspAlBmRC230L4+E9EK38h9pswJhnorgEA9itWKtvYm38P4UgZaaeDtNsBghAqiZEYOtnSxGLDKuRRIiPBL4sI1laB1JCz/k5/NQD+1SLN7uvnUXr3MhpxhKjRAMIAmgurOEEaxVBKwxCAJlBjW0CljEIxj+TOzwierhLDfwSgWUnhnYvAzCy6jV32uAXTDmBYNeuF4ebcVRSBVBGQ7UBZFlK5V6mgUB1F5/vvENW3+rLQlwHFiopvzMC5ehX+Rp10c/OwDR2xalbE7YEkySSp+THb1LJhhAV+F/kCMDaKkTTE3s0f2LbuoeLsC8AbrSF37UO0WDFYvWHfFRWuCMBY3CRJ6QR6glfhIGPZJQB+0JYDOGxFoQjn1GmYe/fQWfmj98y/jr4AChcvIblwAXF9Ezpos/oIYM8VK0wFCBcTAcqaQrtcDa+yIChGAamFhZOnkH/egH+bLBix6D+PQwFYpLJ8/Tp8+jrZ2wbapJ5WE8q5HQEQiPg9JgsUXcpVROm9FggAAhFQuRzMaJVaqKH95VcUrLRhCADO6BiKnxHAk1WYVgvodql6Uk/6hUfDSqh7CtCmBinAJKIVyYom7axeaBAAoChRGYF3bgrBtzeQbmwcMOQBBsgwKleuoDPzFqKtJ0j3fKgWrcZem5iql2/wtB0H+dm3kaQxOr/+xgQkQIpCS+XSbNfhZzJSKsGaPAO1tIRgeXkwA1JRZWEBzYkqdHedGmgCO6S8ywqpgUTsxv7m8nnYly4jRYLu4lIvhjNV8peOEBFqMmRKRQKYgPvwIZoPHgwHoLxwDa3pcaQ7z4DNFpTPyiNSTwbEbqIFy6X2qXJoh23ao0gJ0nLpRzJls0GSCWyHIgPO5CT00iL8R48GAxCGT8zNIfpgDvH2GpIVtsBPMq+LBkTHmR21CJCCNKSdhYMYszkkh1hQrChiLJeRmzyL7s0biDY3BgPIXDRSQemLz+E315A+9qFbQW9TCRkRIfXAprN6kQPv8X6WjHKfaCSOjQg0xxZUq8jXqmh//Q0nJufHMC6QbK989Cn8sRLStU2oJnUgvWf+S5mZn//elFkgyhVlykCS4SNAXY7pgsc0rCHfbCC4das3tIYBIM944yfhfvIx2rtk4HkdScQgotKlFZnr98NIfJ+FkdzlxtQnr5IBBFAswGEcJ3fuovt07cDmcqNvEspkO/HmLBSnoN/YQdpqQodU+ksgMgFfLiABJVVn84DBJJPRpUuYgt7ONhq3f2QIhUcDIE9rBos3NQ33/XmO/i7irR06QBwhbPR0kEVyjxNJH7aBp+fC4SS0KbrO/fuImKT93v4HvxHxCbc2jsr8PPzCCGLGqeGCKdnQDCGZC9lBBhRpB1/RHM6A3OY6mj/dRSpz5BX/eQwGsE+c7eXhnJ6Ee/41qIkzCNnsVGyZiU7D5SS0Ccis19FZ/h3J+jPq5mD2Dy3CwxrW07pUmoPmkHEpMHkJAYGE9Tri3d3ewBG3DHkMzcCQ6x35sWMAxwy8AGeXaB8lNL0dAAAAAElFTkSuQmCC"
+        },
+        "8": {
+          "id": 8,
+          "index": 6,
+          "windowId": 1,
+          "highlighted": false,
+          "active": false,
+          "attention": false,
+          "pinned": false,
+          "status": "complete",
+          "hidden": false,
+          "discarded": false,
+          "incognito": false,
+          "width": 1920,
+          "height": 919,
+          "lastAccessed": 1655386234512,
+          "audible": false,
+          "mutedInfo": {
+            "muted": false
+          },
+          "isArticle": true,
+          "isInReaderMode": false,
+          "sharingState": {
+            "camera": false,
+            "microphone": false
+          },
+          "successorTabId": -1,
+          "cookieStoreId": "firefox-default",
+          "url": "https://vladimir.varank.in/notes/2022/05/a-real-life-use-case-for-generics-in-go-api-for-client-side-pagination/",
+          "title": "A real life use-case for generics in Go: API for client-side pagination - Vladimir Varankin"
+        },
+        "34": {
+          "id": 34,
+          "index": 1,
+          "windowId": 1,
+          "highlighted": false,
+          "active": false,
+          "attention": false,
+          "pinned": false,
+          "status": "complete",
+          "hidden": false,
+          "discarded": false,
+          "incognito": false,
+          "width": 1920,
+          "height": 919,
+          "lastAccessed": 1655386250834,
+          "audible": false,
+          "mutedInfo": {
+            "muted": false
+          },
+          "isArticle": false,
+          "isInReaderMode": false,
+          "sharingState": {
+            "camera": false,
+            "microphone": false
+          },
+          "successorTabId": -1,
+          "cookieStoreId": "firefox-default",
+          "url": "https://go.dev/tour/list",
+          "title": "A Tour of Go",
+          "favIconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAE6UlEQVRYR+1VW0xUVxRd516GmYFhBAWxQOUhVApKmkrEUeHDktakyDC8xKaJCVa0INo26UsUUmqMjYn98EOpH9bExJSHPFRqS7WRh+VRLRVFSwCHiGDL8BgeMwww9/TcS0uZYSIabdoP9s/N3WfvfdZde+19Cf5jI/Pdn5KSwvdYrDGUc9JRCGFUIEEsyV3Mo6Ae0/lkmPmslNAxQvCbIHAtlHDnG8vO1YEQ4XF3SADWatOincjUAUEgIQTEQDh6+npZUYFmS9JWyuEwKAmYD6ijc0JoBxWwv/5CSdG6+OS3GNDdIIIfoVwXx3Ff1JV98y3RxKW9Bt76HaWUtynCoRsC/EQfr3SF5+o1UL0YBJVfAJzdl8BJ6QJeoZRSrONmTJlNmBjqx2i3HqMPOmFouQGreUw65wjXIVBhhR1IyhOyjURpU68RKsQsCg6DZ0Qkhjvb0NdcL8XKPTwRsCUNXq9owMlkT0WCMDkh1dFfOAfLYD94uRI+0a+Dk8vRW1uFCeMg6yG9SzQJyXr5Ym//yANfglAK4iSD4VYTDM0NCE/bgQ2eSrysIFBwQP8UcHOMotU8F4vYy1UuQDCLlbGX3gmKG4yAEZMZXZeL4ROzGTKVmrFigsU4gF+OfioWMRGNNrXKfeWq2LD096G/VMjaDQTGbYOHUo4Mbw5eDj78Z1a4uJ9J8C8crgzcdi8Cf7ktMDOT31kDRTsDbOy8hz+aqqFY+gJ81sei7sPtYnN+ndaAE61anZVDXLx94ey2iGmFIHMZN6fg7PIXBylqRqY9O5YSvKRw3CELA3HsEcUQY0/Sy4QFXZVF6L5SAaaBNGkKNPHJKZA5nfaKWOe6fHMiwv39sNvbdkJNJhMyd2WgqbERWp0Onxw6gsM9gJ8zsGeZbWxLyy3szcqE0WjEZ/mH4L5JCxHw8P02dJR8jdGudgtHsK+uvLhgJjMqIbWUCEJC+K6PoFsfiTfdbYsWnDiBvIM5M59ZWFKK6yExCGODEO9hG5usS0BtTbUU6+bmhsu3O/BVPy9pq/XUUZHhivryIq14PpPJ5rSNvYdE5Z9A7PIliLMreqrgJA7m7J8BUFxahpoV0Qh3ACAlUYea6mtSrFqtlgAUGDg2DQY05GayW2lbfXnJShsAGm3KCNsFqo3HziJQ5YxMuxaYzWZkZ72LpoYG6JKS8F7u5zjCWuDDWrDXrgWtd+5gX/YeDLMW5OXnQxUdh0tDbI+y0az94G1GABn9qbzIzZ4BSdQxxwsl5KIGAu1UPVtmH588g6tlxdLY7kxPx87EOIcqHBdF2EthtE4fV2enSs/6imKJ/dktsAGgZnvxHaZu7zljSHG16SYyUpNmLpQrFCiprERoYJANiDFxDPsoOi3/uJ8YgJgiLpS1KiBUSeDCZt3ARqnn4hmoH9xGdet91N7Vg+c5xEYEY02QLwZDN8IjRgtnltczSdHM9oW4C2bbUwGw55RnPXyjPBc8+8M4slFegR8T8x2e/e18JgDUakXfD+fhZ+nDBsaMi9xZFBQGxsbRaObxUOUD703x/x4AsbKVsTA+NIC8YFd4qdjyZ3bv9wEcfzgJ5WJP8DI2Fo+xZ2Jgdt2teIRXfb0k15XOXnwvl/7c89pzAzCob4eZLRbRVOwHo/b1n/dyMeC5AXii2xwELQBYYGCBgQUGFhj43zHwJxRLPdQhUQhiAAAAAElFTkSuQmCC"
+        }
+      }
+    },
+    "windowsNumber": 1,
+    "windowsInfo": {
+      "1": {
+        "id": 1,
+        "focused": true,
+        "top": -8,
+        "left": -8,
+        "width": 1936,
+        "height": 1048,
+        "incognito": false,
+        "type": "normal",
+        "state": "maximized",
+        "alwaysOnTop": false,
+        "title": "Tutorials - The Go Programming Language – Mozilla Firefox"
+      }
+    },
+    "tabsNumber": 7,
+    "name": "go",
+    "date": 1655387348976,
+    "lastEditedTime": 1655387351269,
+    "tag": [],
+    "sessionStartTime": 1655364130233,
+    "id": "45fd775d-bfeb-4500-94d6-a4b7a0b20599"
+  }
+]
