@@ -13,6 +13,16 @@
 - [Gophercises](https://gophercises.com/)
 - [Go by Example](https://gobyexample.com/)
 
+### Concurrency
+- [Go Concurrency Patterns](https://www.youtube.com/watch?v=f6kdp27TYZs) ([slides](https://go.dev/talks/2012/concurrency.slide))
+- [Advanced Go Concurrency Patterns](https://www.youtube.com/watch?v=QDDwwePbDtw) ([slides](https://go.dev/talks/2013/advconc.slide)) 
+- [Share Memory by Communicating](https://go.dev/doc/codewalk/sharemem/)
+
+### Codewalks
+- [First-Class Functions in Go](https://go.dev/doc/codewalk/functions/)
+- [Share Memory By Communicating](https://go.dev/doc/codewalk/sharemem/)
+- [Generating arbitrary text: a Markov chain algorithm](https://go.dev/doc/codewalk/markov/)
+
 ### Web Programming
 - [Writing Web Applications](https://go.dev/doc/articles/wiki/)
 - [Learn Web Programming in Go by Examples](https://gowebexamples.com/)
