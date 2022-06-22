@@ -27,6 +27,7 @@ func (c *Crawler) Crawl(url string, depth int, fetcher Fetcher) {
 	body, urls, err := fetcher.Fetch(url)
 	if err != nil {
 		fmt.Println(err)
+		c.cache[url] = false
 		return
 	}
 	c.cache[url] = true
