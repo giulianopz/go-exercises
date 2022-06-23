@@ -15,7 +15,7 @@
 
 ### Concurrency
 - [Go Concurrency Patterns](https://www.youtube.com/watch?v=f6kdp27TYZs) ([slides](https://go.dev/talks/2012/concurrency.slide))
-- [Advanced Go Concurrency Patterns](https://www.youtube.com/watch?v=QDDwwePbDtw) ([slides](https://go.dev/talks/2013/advconc.slide)) 
+- [Advanced Go Concurrency Patterns](https://www.youtube.com/watch?v=QDDwwePbDtw) ([slides](https://go.dev/talks/2013/advconc.slide))
 
 ### Codewalks
 - [First-Class Functions in Go](https://go.dev/doc/codewalk/functions/)
