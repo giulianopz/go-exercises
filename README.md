@@ -7,14 +7,14 @@
 - [The Go Programming Language Specification](https://go.dev/ref/spec)
 - [Standard library](https://pkg.go.dev/std)
 
+### Best Practices
+- [How to Write Go Code](https://go.dev/doc/code)
+- [Effective Go](https://go.dev/doc/effective_go)
+
 ### Codewalks
 - [First-Class Functions in Go](https://go.dev/doc/codewalk/functions/)
 - [Share Memory By Communicating](https://go.dev/doc/codewalk/sharemem/)
 - [Generating arbitrary text: a Markov chain algorithm](https://go.dev/doc/codewalk/markov/)
-
-### Best Practices
-- [How to Write Go Code](https://go.dev/doc/code)
-- [Effective Go](https://go.dev/doc/effective_go)
 
 ### Practicing
 - [Play with Go](https://play-with-go.dev/)
