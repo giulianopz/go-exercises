@@ -21,7 +21,7 @@
 - [Gophercises](https://gophercises.com/)
 - [Go by Example](https://gobyexample.com/)
 
-### Database 
+### Database
 - [Accessing relational databases](https://go.dev/doc/database/)
 
 ### Concurrency
@@ -35,4 +35,4 @@
 - [REST Servers in Go](https://eli.thegreenplace.net/2021/rest-servers-in-go-part-1-standard-library/)
 
 ### Design Patterns
-- [Dependency Injection](https://go.dev/blog/wire)
+- [Go Patterns](https://github.com/tmrts/go-patterns)
