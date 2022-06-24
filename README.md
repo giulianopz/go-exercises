@@ -33,3 +33,6 @@
 - [Gin](https://gin-gonic.com/docs/)
 - [Learn Web Programming in Go by Examples](https://gowebexamples.com/)
 - [REST Servers in Go](https://eli.thegreenplace.net/2021/rest-servers-in-go-part-1-standard-library/)
+
+### Design Patterns
+- [Dependency Injection](https://go.dev/blog/wire)
