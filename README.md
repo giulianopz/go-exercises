@@ -20,6 +20,7 @@
 - [Play with Go](https://play-with-go.dev/)
 - [Gophercises](https://gophercises.com/)
 - [Go by Example](https://gobyexample.com/)
+- [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/)
 
 ### Database
 - [Accessing relational databases](https://go.dev/doc/database/)
