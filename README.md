@@ -6,6 +6,7 @@
 - [Tutorials](https://go.dev/doc/tutorial/)
 - [The Go Programming Language Specification](https://go.dev/ref/spec)
 - [Standard library](https://pkg.go.dev/std)
+- [Debugging](https://github.com/golang/vscode-go/blob/master/docs/debugging.md)
 
 ### Best Practices
 - [How to Write Go Code](https://go.dev/doc/code)
