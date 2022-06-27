@@ -10,6 +10,7 @@
 ### Best Practices
 - [How to Write Go Code](https://go.dev/doc/code)
 - [Effective Go](https://go.dev/doc/effective_go)
+- [Standard Go Project Layout](https://github.com/golang-standards/project-layout)
 
 ### Codewalks
 - [First-Class Functions in Go](https://go.dev/doc/codewalk/functions/)
@@ -34,6 +35,7 @@
 - [Gin](https://gin-gonic.com/docs/)
 - [Learn Web Programming in Go by Examples](https://gowebexamples.com/)
 - [REST Servers in Go](https://eli.thegreenplace.net/2021/rest-servers-in-go-part-1-standard-library/)
+- [Structuring Web Applications in Go](https://www.calhoun.io/structuring-web-applications-in-go/)
 
 ### Design Patterns
 - [Go Patterns](https://github.com/tmrts/go-patterns)
