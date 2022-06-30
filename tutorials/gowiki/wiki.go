@@ -2,10 +2,12 @@ package main
 
 import (
 	"html/template"
+	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
 	"regexp"
+	"strings"
 )
 
 type Page struct {
@@ -13,26 +15,22 @@ type Page struct {
 	Body  []byte
 }
 
-var templates = template.Must(template.ParseFiles("edit.html", "view.html"))
+type Home struct {
+	Title   string
+	Entries []string
+}
+
+var templates = template.Must(template.ParseFiles("./tmpl/edit.html", "./tmpl/view.html", "./tmpl/home.html"))
 
 var validPath = regexp.MustCompile("^/(edit|save|view)/([a-zA-Z0-9]+)$")
 
 func (p *Page) save() error {
-	filename := p.Title + ".txt"
+	filename := "data/" + strings.ReplaceAll(p.Title, " ", "") + ".txt"
 	return os.WriteFile(filename, p.Body, 0600)
 }
 
-/* func getTitle(w http.ResponseWriter, r *http.Request) (string, error) {
-	m := validPath.FindStringSubmatch(r.URL.Path)
-	if m == nil {
-		http.NotFound(w, r)
-		return "", errors.New("invalid Page Title")
-	}
-	return m[2], nil // The title is the second subexpression.
-} */
-
 func loadPage(title string) (*Page, error) {
-	filename := title + ".txt"
+	filename := "data/" + title + ".txt"
 	body, err := os.ReadFile(filename)
 	if err != nil {
 		return nil, err
@@ -67,6 +65,30 @@ func saveHandler(w http.ResponseWriter, r *http.Request, title string) {
 	http.Redirect(w, r, "/view/"+title, http.StatusFound)
 }
 
+func newHandler(w http.ResponseWriter, r *http.Request) {
+
+	title := r.FormValue("ftitle")
+	if title == "" {
+		http.Error(w, "missing title", http.StatusInternalServerError)
+		return
+	}
+
+	files, readErr := ioutil.ReadDir("./data/")
+	if readErr != nil {
+		log.Fatal(readErr)
+	}
+
+	suffix := ".txt"
+	for _, file := range files {
+		if strings.HasSuffix(file.Name(), suffix) && title == strings.TrimSuffix(file.Name(), ".txt") {
+			editHandler(w, r, title)
+		}
+	}
+
+	p := &Page{Title: title}
+	renderTemplate(w, "edit", p)
+}
+
 func editHandler(w http.ResponseWriter, r *http.Request, title string) {
 	p, err := loadPage(title)
 	if err != nil {
@@ -86,16 +108,34 @@ func makeHandler(fn func(http.ResponseWriter, *http.Request, string)) http.Handl
 	}
 }
 
+func home(w http.ResponseWriter, r *http.Request) {
+
+	files, readErr := ioutil.ReadDir("./data/")
+	if readErr != nil {
+		log.Fatal(readErr)
+	}
+
+	suffix := ".txt"
+	entries := make([]string, 0)
+	for _, file := range files {
+		if strings.HasSuffix(file.Name(), suffix) {
+			entries = append(entries, strings.TrimSuffix(file.Name(), ".txt"))
+		}
+	}
+
+	p := &Home{Title: "home", Entries: entries}
+	templErr := templates.ExecuteTemplate(w, "home.html", p)
+	if templErr != nil {
+		http.Error(w, templErr.Error(), http.StatusInternalServerError)
+	}
+}
+
 func main() {
 
-	/* 	p1 := &Page{Title: "TestPage", Body: []byte("This is a sample Page.")}
-	p1.save()
-	p2, _ := loadPage("TestP"/view/", viewHandlerag
-	e")
-	fmt.Println(string(p2.Body)) */
-
+	http.HandleFunc("/", home)
 	http.HandleFunc("/view/", makeHandler(viewHandler))
 	http.HandleFunc("/edit/", makeHandler(editHandler))
 	http.HandleFunc("/save/", makeHandler(saveHandler))
+	http.HandleFunc("/new/", newHandler)
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }

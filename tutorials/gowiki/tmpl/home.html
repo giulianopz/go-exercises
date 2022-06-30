@@ -1,0 +1,27 @@
+<h1>ArchWiki</h1>
+
+<p>Welcome to the ArchWiki: your source for Arch Linux documentation on the web.<br><br>See below for a list of nice
+    pages.
+</p>
+
+<h3>Table of Contents:</h3>
+{{range $idx, $entry := .Entries}}
+<ul>
+    <li><a href="/view/{{$entry}}">{{$entry}}</a></li>
+</ul>
+{{end}}
+
+<br><br>
+In evolutionary biology, cooperation describes interactions where an individual pays a small cost to yield a larger
+benefit to one or more others. If this costly contribution is reciprocated, everyone involved can benefit tremendously.
+This principle also applies to proactive members of the Arch community wanting to get involved and contribute to their
+favorite Linux distribution. Their participation benefits not only the community member and their fellow Archers, but
+all users of free and open source software.
+<br><br>
+
+You can contribute, by creating a new page.
+<form action="/new/" method="POST">
+    <div><label for="ftitle">Choose a Name:</label>
+    <input type="text" id="ftitle" name="ftitle"></div>
+    <div></div><input type="submit" value="Create"></div>
+</form>
