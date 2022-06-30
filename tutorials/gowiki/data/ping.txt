@@ -9,4 +9,4 @@ PING www.example.com (93.184.216.34): 56(84) data bytes
 
 For every reply received, the ping utility will print a line like the above until you interrupt (Ctrl+c) it interactively. For more information see the ping(8) manual. Note that computers can be configured not to respond to ICMP echo requests. [1]
 
-If you receive an error message (see ping error indications) or no reply, this may be related to incomplete configuration, but also your default gateway or your Internet Service Provider (ISP). You can run a traceroute to further diagnose the route to the host. 
+If you receive an error message (see ping error indications) or no reply, this may be related to incomplete configuration, but also your default gateway or your Internet Service Provider (ISP). You can run a traceroute to further diagnose the route to the host.
