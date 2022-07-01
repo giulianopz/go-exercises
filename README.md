@@ -12,6 +12,8 @@
 - [How to Write Go Code](https://go.dev/doc/code)
 - [Effective Go](https://go.dev/doc/effective_go)
 - [Standard Go Project Layout](https://github.com/golang-standards/project-layout)
+- [go-starter](https://github.com/allaboutapps/go-starter)
+- [Structuring Web Applications in Go](https://www.calhoun.io/structuring-web-applications-in-go/)
 
 ### Codewalks
 - [First-Class Functions in Go](https://go.dev/doc/codewalk/functions/)
@@ -36,7 +38,7 @@
 - [Gin](https://gin-gonic.com/docs/)
 - [Learn Web Programming in Go by Examples](https://gowebexamples.com/)
 - [REST Servers in Go](https://eli.thegreenplace.net/2021/rest-servers-in-go-part-1-standard-library/)
-- [Structuring Web Applications in Go](https://www.calhoun.io/structuring-web-applications-in-go/)
+- [A real life use-case for generics in Go: API for client-side pagination](https://vladimir.varank.in/notes/2022/05/a-real-life-use-case-for-generics-in-go-api-for-client-side-pagination/)
 
 ### Design Patterns
 - [Go Patterns](https://github.com/tmrts/go-patterns)
