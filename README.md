@@ -34,6 +34,7 @@
 - [Advanced Go Concurrency Patterns](https://www.youtube.com/watch?v=QDDwwePbDtw) ([slides](https://go.dev/talks/2013/advconc.slide))
 
 ### Web Programming
+- [Go for Web Development](https://go.dev/solutions/webdev)
 - [Writing Web Applications](https://go.dev/doc/articles/wiki/)
 - [Gin](https://gin-gonic.com/docs/)
 - [Learn Web Programming in Go by Examples](https://gowebexamples.com/)
