@@ -28,6 +28,9 @@
 
 ### Database
 - [Accessing relational databases](https://go.dev/doc/database/)
+- [Design patterns in Go's database/sql package](https://eli.thegreenplace.net/2019/design-patterns-in-gos-databasesql-package/)
+- [To ORM or not to ORM](https://eli.thegreenplace.net/2019/to-orm-or-not-to-orm/)
+- [Accessing PostgreSQL databases in Go](https://eli.thegreenplace.net/2021/accessing-postgresql-databases-in-go/)
 
 ### Concurrency
 - [Go Concurrency Patterns](https://www.youtube.com/watch?v=f6kdp27TYZs) ([slides](https://go.dev/talks/2012/concurrency.slide))
