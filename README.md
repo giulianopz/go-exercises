@@ -41,6 +41,9 @@
 - [Learn Web Programming in Go by Examples](https://gowebexamples.com/)
 - [REST Servers in Go](https://eli.thegreenplace.net/2021/rest-servers-in-go-part-1-standard-library/)
 - [A real life use-case for generics in Go: API for client-side pagination](https://vladimir.varank.in/notes/2022/05/a-real-life-use-case-for-generics-in-go-api-for-client-side-pagination/)
+- [Life of an HTTP request in a Go server](https://eli.thegreenplace.net/2021/life-of-an-http-request-in-a-go-server/)
+- [Go HTTPS servers with TLS](https://eli.thegreenplace.net/2021/go-https-servers-with-tls/)
+- [kin-openapi](https://github.com/getkin/kin-openapi)
 
 ### Design Patterns
 - [Go Patterns](https://github.com/tmrts/go-patterns)
