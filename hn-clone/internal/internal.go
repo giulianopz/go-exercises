@@ -11,7 +11,7 @@ var templates = template.Must(template.ParseFiles("../../web/index.html"))
 
 func Home(w http.ResponseWriter, r *http.Request) {
 
-	stories, err := api.NextPage(0, 30)
+	stories, err := api.NextPage(0)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 	}

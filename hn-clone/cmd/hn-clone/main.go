@@ -14,7 +14,9 @@ func main() {
 
 	http.HandleFunc("/", internal.Home)
 
+	//http.HandleFunc("/news", internal.News)
+
 	addr := ":8080"
-	fmt.Println("serving at:", addr)
+	fmt.Println("serving at", addr)
 	log.Fatal(http.ListenAndServe(addr, nil))
 }

@@ -8,6 +8,8 @@ import (
 	"net/http"
 )
 
+var storiesNum int = 30
+
 func GetTopStoriesIds() ([]int, error) {
 
 	resp, err := http.Get("https://hacker-news.firebaseio.com/v0/topstories.json")
@@ -25,23 +27,20 @@ func GetTopStoriesIds() ([]int, error) {
 	return ids, nil
 }
 
-func NextPage(id int, pages int) ([]model.Story, error) {
+func NextPage(page int) ([]model.Story, error) {
 
 	stories := make([]model.Story, 0)
 
 	ids, _ := GetTopStoriesIds()
 
-	first := 0
-
-	if id != 0 {
-		for i, v := range ids {
-			if id == v {
-				first = i
-			}
-		}
+	var first int
+	if page == 0 {
+		first = 0
+	} else {
+		first = page*storiesNum - storiesNum
 	}
 
-	requested := ids[first : first+pages]
+	requested := ids[first : first+storiesNum]
 
 	// can be parallelized
 	for _, id := range requested {
