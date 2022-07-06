@@ -33,10 +33,8 @@ func NextPage(page int) ([]model.Story, error) {
 
 	ids, _ := GetTopStoriesIds()
 
-	var first int
-	if page == 0 {
-		first = 0
-	} else {
+	first := page
+	if page != 0 {
 		first = page*storiesNum - storiesNum
 	}
 
