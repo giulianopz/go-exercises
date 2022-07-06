@@ -11,7 +11,7 @@ import (
 
 var storiesNum int = 30
 
-func GetTopStoriesIds() ([]int, error) {
+func TopStoriesIds() ([]int, error) {
 
 	resp, err := http.Get("https://hacker-news.firebaseio.com/v0/topstories.json")
 	if err != nil {
@@ -27,10 +27,9 @@ func GetTopStoriesIds() ([]int, error) {
 	return ids, nil
 }
 
-func getStory(id int, ch chan model.Story, wg *sync.WaitGroup) {
+func Story(id int, ch chan model.Story, wg *sync.WaitGroup) {
 
-	fmt.Println("DEBUG", "fectching story with id:", id)
-
+	//fmt.Println("DEBUG", "fectching story with id:", id)
 	defer wg.Done()
 
 	resp, err := http.Get("https://hacker-news.firebaseio.com/v0/item/" + fmt.Sprint(id) + ".json")
@@ -46,38 +45,4 @@ func getStory(id int, ch chan model.Story, wg *sync.WaitGroup) {
 		fmt.Println("Can not unmarshal JSON")
 	}
 	ch <- result
-}
-
-func NextPage(page int) ([]model.Story, error) {
-
-	ids, _ := GetTopStoriesIds()
-
-	first := page
-	if page != 0 {
-		first = page*storiesNum - storiesNum
-	}
-
-	requested := ids[first : first+storiesNum]
-
-	ch := make(chan model.Story)
-	var wg sync.WaitGroup
-	for _, id := range requested {
-
-		wg.Add(1)
-		go getStory(id, ch, &wg)
-	}
-	fmt.Println("DEBUG", "done fetching stories")
-
-	// close the channel in the background
-	go func() {
-		wg.Wait()
-		close(ch)
-	}()
-
-	stories := make([]model.Story, 0)
-	for story := range ch {
-		stories = append(stories, story)
-	}
-	fmt.Println("DEBUG", "done consuming channel")
-	return stories, nil
 }
