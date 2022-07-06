@@ -48,7 +48,7 @@
 
                                 {{range $idx, $story := .Stories}}
                                 <tr class="athing" id="{{$story.Id}}">
-                                    <td class="title" valign="top" align="right"><span class="rank">{{$story.Rank $idx}}.</span></td>
+                                    <td class="title" valign="top" align="right"><span class="rank">{{$story.Rank}}.</span></td>
                                     <td class="votelinks" valign="top">
                                         <center><a id="up_{{$story.Id}}"
                                                 href="https://news.ycombinator.com/vote?id={{$story.Id}}&amp;how=up&amp;goto=news">

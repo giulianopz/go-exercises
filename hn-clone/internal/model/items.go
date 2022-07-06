@@ -27,10 +27,7 @@ type Story struct {
 	Score       int    `json:"score"`
 	Title       string `json:"title"`
 	Url         string `json:"url"`
-}
-
-func (s *Story) Rank(idx int) int {
-	return idx + 1
+	Rank        int
 }
 
 func (s *Story) Site() string {

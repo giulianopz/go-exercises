@@ -41,19 +41,21 @@ func nextPage(page int) ([]model.Story, error) {
 		results = append(results, story)
 	}
 
-	stories := order(subset, results)
+	stories := order(subset, results, page)
 
 	//fmt.Println("DEBUG", "done consuming channel")
 	return stories, nil
 }
 
-func order(ids []int, stories []model.Story) []model.Story {
+func order(ids []int, stories []model.Story, page int) []model.Story {
 
 	ordered := make([]model.Story, 0)
 	for id := range ids {
 
 		for _, v := range stories {
 			if v.Id == ids[id] {
+
+				v.Rank = id + (30 * (page - 1)) + 1
 				ordered = append(ordered, v)
 			}
 		}
