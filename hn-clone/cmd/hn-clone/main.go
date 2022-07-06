@@ -2,11 +2,19 @@ package main
 
 import (
 	"example/internal"
+	"fmt"
+	"log"
+	"net/http"
 )
 
 func main() {
 
-	internal.Latest()
+	fs := http.FileServer(http.Dir("../../web/assets/"))
+	http.Handle("/static/", http.StripPrefix("/static/", fs))
 
-	internal.NextPage()
+	http.HandleFunc("/", internal.Home)
+
+	addr := ":8080"
+	fmt.Println("serving at:", addr)
+	log.Fatal(http.ListenAndServe(addr, nil))
 }

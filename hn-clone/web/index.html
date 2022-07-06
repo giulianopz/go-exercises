@@ -4,7 +4,7 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="referrer" content="origin">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/news.css">
+    <link rel="stylesheet" type="text/css" href="/static/news.css">
     <link rel="shortcut icon" href="https://news.ycombinator.com/favicon.ico">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="https://news.ycombinator.com/rss">
     <title>Hacker News</title>
@@ -20,7 +20,7 @@
                             <tbody>
                                 <tr>
                                     <td style="width:18px;padding-right:4px"><a
-                                            href="https://news.ycombinator.com/"><img src="assets/y18.gif"
+                                            href="https://news.ycombinator.com/"><img src="/static/y18.gif"
                                                 style="border:1px white solid;" width="18" height="18"></a></td>
                                     <td style="line-height:12pt; height:10px;"><span class="pagetop"><b
                                                 class="hnname"><a href="https://news.ycombinator.com/news">Hacker
@@ -46,25 +46,38 @@
                         <table class="itemlist" cellspacing="0" cellpadding="0" border="0">
                             <tbody>
 
-                                <tr class="athing" id="{{id}}">
-                                    <td class="title" valign="top" align="right"><span class="rank">{{index}}.</span></td>
+                                {{range $idx, $story := .Stories}}
+                                <tr class="athing" id="{{$story.Id}}">
+                                    <td class="title" valign="top" align="right"><span class="rank">{{$story.Rank $idx}}.</span></td>
                                     <td class="votelinks" valign="top">
-                                        <center><a id="up_{{id}}"
-                                                href="https://news.ycombinator.com/vote?id={{id}}&amp;how=up&amp;goto=news">
+                                        <center><a id="up_{{$story.Id}}"
+                                                href="https://news.ycombinator.com/vote?id={{$story.Id}}&amp;how=up&amp;goto=news">
                                                 <div class="votearrow" title="upvote"></div>
                                             </a></center>
                                     </td>
-                                    <td class="title"><a href="{{url}}" class="titlelink">{{title}}</a><span
-                                            class="sitebit comhead"> (<a
-                                                href="https://news.ycombinator.com/from?site={{site}}"><span
-                                                    class="sitestr">{{site}}</span></a>)</span></td>
+                                    <td class="title"><a href="{{$story.Url}}"
+                                            class="titlelink">{{$story.Title}}</a><span class="sitebit comhead"> (<a
+                                                href="from?site={{$story.Site}}"><span
+                                                    class="sitestr">{{$story.Site}}</span></a>)</span></td>
                                 </tr>
-
+                                <tr>
+                                    <td colspan="2"></td>
+                                    <td class="subtext">
+                                        <span class="score" id="score_{{$story.Id}}">{{$story.Score}} points</span> by
+                                        <a href="user?id={{$story.By}}" class="hnuser">{{$story.By}}</a> <span
+                                            class="age" title="{{$story.Time}}"><a
+                                                href="item?id={{$story.Id}}">{{$story.Time}}</a>
+                                        </span> <span id="unv_{{$story.Id}}"></span> | <a
+                                            href="hide?id={{$story.Id}}&amp;goto=news">hide</a> | <a
+                                            href="item?id={{$story.Id}}">{{$story.Descendants}}&nbsp;comments</a>
+                                    </td>
+                                </tr>
                                 <tr class="spacer" style="height:5px"></tr>
+                                {{end}}
                                 <tr class="morespace" style="height:10px"></tr>
                                 <tr>
                                     <td colspan="2"></td>
-                                    <td class="title"><a href="https://news.ycombinator.com/news?p={{nextPage}}" class="morelink"
+                                    <td class="title"><a href="https://news.ycombinator.com/news?p=2" class="morelink"
                                             rel="next">More</a></td>
                                 </tr>
                             </tbody>
@@ -72,7 +85,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><img src="assets/s.gif" width="0" height="10">
+                    <td><img src="/static/s.gif" width="0" height="10">
                         <table width="100%" cellspacing="0" cellpadding="1">
                             <tbody>
                                 <tr>
@@ -99,7 +112,7 @@
             </tbody>
         </table>
     </center>
-    <script type="text/javascript" src="assets/hn.js"></script>
+    <script type="text/javascript" src="/static/hn.js"></script>
 </body>
 
 </html>

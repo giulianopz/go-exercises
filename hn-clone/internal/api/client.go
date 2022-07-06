@@ -16,14 +16,12 @@ func GetTopStoriesIds() ([]int, error) {
 	}
 	defer resp.Body.Close()
 	body, err := ioutil.ReadAll(resp.Body)
-	fmt.Println(string(body))
 
 	var ids []int
 	if err := json.Unmarshal(body, &ids); err != nil {
 		return nil, fmt.Errorf("Can not deserialize JSON")
 	}
-	fmt.Println(ids)
-
+	//fmt.Println(ids)
 	return ids, nil
 }
 
@@ -33,15 +31,17 @@ func NextPage(id int, pages int) ([]model.Story, error) {
 
 	ids, _ := GetTopStoriesIds()
 
-	idx := 0
+	first := 0
 
-	for i, v := range ids {
-		if id == v {
-			idx = i
+	if id != 0 {
+		for i, v := range ids {
+			if id == v {
+				first = i
+			}
 		}
 	}
 
-	requested := ids[idx : idx+pages]
+	requested := ids[first : first+pages]
 
 	// can be parallelized
 	for _, id := range requested {
@@ -59,6 +59,6 @@ func NextPage(id int, pages int) ([]model.Story, error) {
 		}
 		stories = append(stories, result)
 	}
-	fmt.Println(stories)
+	//fmt.Println(stories)
 	return stories, nil
 }

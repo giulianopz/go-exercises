@@ -3,14 +3,22 @@ package internal
 import (
 	"example/internal/api"
 	"example/internal/model"
+	"net/http"
+	"text/template"
 )
 
-func NextPage() ([]model.Story, error) {
+var templates = template.Must(template.ParseFiles("../../web/index.html"))
 
-	return api.NextPage(31993429, 20)
-}
+func Home(w http.ResponseWriter, r *http.Request) {
 
-func Latest() ([]int, error) {
+	stories, err := api.NextPage(0, 30)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+	}
 
-	return api.GetTopStoriesIds()
+	p := &model.Page{Stories: stories}
+	templErr := templates.ExecuteTemplate(w, "index.html", p)
+	if templErr != nil {
+		http.Error(w, templErr.Error(), http.StatusInternalServerError)
+	}
 }
