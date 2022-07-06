@@ -4,6 +4,7 @@ import (
 	"example/internal/api"
 	"example/internal/model"
 	"net/http"
+	"strconv"
 	"sync"
 	"text/template"
 )
@@ -70,6 +71,22 @@ func Home(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 	}
 
+	p := &model.Page{Stories: stories}
+	templErr := templates.ExecuteTemplate(w, "index.html", p)
+	if templErr != nil {
+		http.Error(w, templErr.Error(), http.StatusInternalServerError)
+	}
+}
+
+func News(w http.ResponseWriter, r *http.Request) {
+
+	num := r.URL.Query().Get("p")
+	page, err := strconv.Atoi(num)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+	}
+
+	stories, err := nextPage(page)
 	p := &model.Page{Stories: stories}
 	templErr := templates.ExecuteTemplate(w, "index.html", p)
 	if templErr != nil {

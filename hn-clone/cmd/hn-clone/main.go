@@ -5,18 +5,22 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+
+	"github.com/gorilla/mux"
 )
 
 func main() {
 
+	r := mux.NewRouter()
+
 	fs := http.FileServer(http.Dir("../../web/assets/"))
-	http.Handle("/static/", http.StripPrefix("/static/", fs))
+	r.PathPrefix("/static/").Handler(http.StripPrefix("/static/", fs))
 
-	http.HandleFunc("/", internal.Home)
+	r.HandleFunc("/", internal.Home)
 
-	//http.HandleFunc("/news", internal.News)
+	r.HandleFunc("/news", internal.News)
 
 	addr := ":8080"
 	fmt.Println("serving at", addr)
-	log.Fatal(http.ListenAndServe(addr, nil))
+	log.Fatal(http.ListenAndServe(addr, r))
 }
