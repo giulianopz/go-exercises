@@ -17,10 +17,7 @@ func nextPage(page int) ([]model.Story, error) {
 
 	ids, _ := api.TopStoriesIds()
 
-	first := page
-	if page != 0 {
-		first = page*storiesNum - storiesNum
-	}
+	first := page*storiesNum - storiesNum
 
 	subset := ids[first : first+storiesNum]
 
@@ -66,12 +63,12 @@ func order(ids []int, stories []model.Story) []model.Story {
 
 func Home(w http.ResponseWriter, r *http.Request) {
 
-	stories, err := nextPage(0)
+	stories, err := nextPage(1)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 	}
 
-	p := &model.Page{Stories: stories}
+	p := &model.Page{Stories: stories, NextPage: 2}
 	templErr := templates.ExecuteTemplate(w, "index.html", p)
 	if templErr != nil {
 		http.Error(w, templErr.Error(), http.StatusInternalServerError)
@@ -87,7 +84,7 @@ func News(w http.ResponseWriter, r *http.Request) {
 	}
 
 	stories, err := nextPage(page)
-	p := &model.Page{Stories: stories}
+	p := &model.Page{Stories: stories, NextPage: page + 1}
 	templErr := templates.ExecuteTemplate(w, "index.html", p)
 	if templErr != nil {
 		http.Error(w, templErr.Error(), http.StatusInternalServerError)

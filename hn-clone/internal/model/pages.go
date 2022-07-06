@@ -1,5 +1,6 @@
 package model
 
 type Page struct {
-	Stories []Story
+	Stories  []Story
+	NextPage int
 }
