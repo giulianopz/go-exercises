@@ -11,6 +11,7 @@
 ### Best Practices
 - [How to Write Go Code](https://go.dev/doc/code)
 - [Effective Go](https://go.dev/doc/effective_go)
+- [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
 - [Standard Go Project Layout](https://github.com/golang-standards/project-layout)
 - [go-starter](https://github.com/allaboutapps/go-starter)
 - [Structuring Web Applications in Go](https://www.calhoun.io/structuring-web-applications-in-go/)
@@ -25,9 +26,12 @@
 - [Gophercises](https://gophercises.com/)
 - [Go by Example](https://gobyexample.com/)
 - [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/)
+- [A Huge Number of Go Examples, Exercises and Quizzes](https://github.com/inancgumus/learngo)
 
 ### Database
 - [Accessing relational databases](https://go.dev/doc/database/)
+- [Organising Database Access in Go](https://www.alexedwards.net/blog/organising-database-access)
+- [Dependency Injection in Go](https://blog.drewolson.org/dependency-injection-in-go)
 - [Design patterns in Go's database/sql package](https://eli.thegreenplace.net/2019/design-patterns-in-gos-databasesql-package/)
 - [To ORM or not to ORM](https://eli.thegreenplace.net/2019/to-orm-or-not-to-orm/)
 - [Accessing PostgreSQL databases in Go](https://eli.thegreenplace.net/2021/accessing-postgresql-databases-in-go/)
@@ -50,3 +54,6 @@
 
 ### Design Patterns
 - [Go Patterns](https://github.com/tmrts/go-patterns)
+
+### Books
+- [Awesome Go Books](https://github.com/dariubs/GoBooks)
