@@ -9,11 +9,15 @@ import (
 	"sync"
 )
 
+var TopStoriesURL = "https://hacker-news.firebaseio.com/v0/topstories.json"
+var NewStoriesURL = "https://hacker-news.firebaseio.com/v0/newstories.json"
+var AskStoriesURL = "https://hacker-news.firebaseio.com/v0/askstories.json"
+
 var storiesNum int = 30
 
-func TopStoriesIds() ([]int, error) {
+func StoriesIds(url string) ([]int, error) {
 
-	resp, err := http.Get("https://hacker-news.firebaseio.com/v0/topstories.json")
+	resp, err := http.Get(url)
 	if err != nil {
 		return nil, fmt.Errorf("HTTP call failed due to: %v", err)
 	}
@@ -22,7 +26,7 @@ func TopStoriesIds() ([]int, error) {
 
 	var ids []int
 	if err := json.Unmarshal(body, &ids); err != nil {
-		return nil, fmt.Errorf("Can not deserialize JSON")
+		return nil, fmt.Errorf("Cannot deserialize JSON")
 	}
 	return ids, nil
 }

@@ -25,13 +25,13 @@
                                     <td style="line-height:12pt; height:10px;"><span class="pagetop"><b
                                                 class="hnname"><a href="https://news.ycombinator.com/news">Hacker
                                                     News</a></b>
-                                            <a href="https://news.ycombinator.com/newest">new</a> | <a
+                                            <a href="/newest?p=1">new</a> | <a
                                                 href="https://news.ycombinator.com/front">past</a> | <a
                                                 href="https://news.ycombinator.com/newcomments">comments</a> | <a
-                                                href="https://news.ycombinator.com/ask">ask</a> | <a
+                                                href="/ask?p=1">ask</a> | <a
                                                 href="https://news.ycombinator.com/show">show</a> | <a
                                                 href="https://news.ycombinator.com/jobs">jobs</a> | <a
-                                                href="https://news.ycombinator.com/submit">submit</a> </span></td>
+                                                href="/subpages/submit.html">submit</a> </span></td>
                                     <td style="text-align:right;padding-right:4px;"><span class="pagetop">
                                             <a href="https://news.ycombinator.com/login?goto=news">login</a>
                                         </span></td>
@@ -48,17 +48,20 @@
 
                                 {{range $idx, $story := .Stories}}
                                 <tr class="athing" id="{{$story.Id}}">
-                                    <td class="title" valign="top" align="right"><span class="rank">{{$story.Rank}}.</span></td>
+                                    <td class="title" valign="top" align="right"><span
+                                            class="rank">{{$story.Rank}}.</span></td>
                                     <td class="votelinks" valign="top">
                                         <center><a id="up_{{$story.Id}}"
                                                 href="https://news.ycombinator.com/vote?id={{$story.Id}}&amp;how=up&amp;goto=news">
                                                 <div class="votearrow" title="upvote"></div>
                                             </a></center>
                                     </td>
-                                    <td class="title"><a href="{{$story.Url}}"
-                                            class="titlelink">{{$story.Title}}</a><span class="sitebit comhead"> (<a
-                                                href="from?site={{$story.Site}}"><span
-                                                    class="sitestr">{{$story.Site}}</span></a>)</span></td>
+                                    <td class="title"><a href="{{$story.Url}}" class="titlelink">{{$story.Title}}</a>
+                                        {{if $story.Url}}
+                                        <span class="sitebit comhead"> (<a href="from?site={{$story.Site}}"><span class="sitestr">{{$story.Site}}</span></a>)
+                                        </span>
+                                        {{end}}
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td colspan="2"></td>
@@ -66,7 +69,7 @@
                                         <span class="score" id="score_{{$story.Id}}">{{$story.Score}} points</span> by
                                         <a href="user?id={{$story.By}}" class="hnuser">{{$story.By}}</a> <span
                                             class="age" title="{{$story.Time}}"><a
-                                                href="item?id={{$story.Id}}">{{$story.Time}}</a>
+                                                href="item?id={{$story.Id}}">{{$story.Age}}</a>
                                         </span> <span id="unv_{{$story.Id}}"></span> | <a
                                             href="hide?id={{$story.Id}}&amp;goto=news">hide</a> | <a
                                             href="item?id={{$story.Id}}">{{$story.Descendants}}&nbsp;comments</a>
@@ -77,8 +80,7 @@
                                 <tr class="morespace" style="height:10px"></tr>
                                 <tr>
                                     <td colspan="2"></td>
-                                    <td class="title"><a href="/news?p={{.NextPage}}" class="morelink"
-                                            rel="next">More</a></td>
+                                    <td class="title"><a href="{{.NextPage}}" class="morelink" rel="next">More</a></td>
                                 </tr>
                             </tbody>
                         </table>
