@@ -15,6 +15,7 @@
 - [Standard Go Project Layout](https://github.com/golang-standards/project-layout)
 - [go-starter](https://github.com/allaboutapps/go-starter)
 - [Structuring Web Applications in Go](https://www.calhoun.io/structuring-web-applications-in-go/)
+- [Practical Go](https://dave.cheney.net/practical-go)
 
 ### Codewalks
 - [First-Class Functions in Go](https://go.dev/doc/codewalk/functions/)
