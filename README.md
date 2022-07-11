@@ -15,6 +15,7 @@
 - [Standard Go Project Layout](https://github.com/golang-standards/project-layout)
 - [go-starter](https://github.com/allaboutapps/go-starter)
 - [Structuring Web Applications in Go](https://www.calhoun.io/structuring-web-applications-in-go/)
+- [Why is GO111MODULE everywhere, and everything about Go Modules](https://maelvls.dev/go111module-everywhere/)
 - [Practical Go](https://dave.cheney.net/practical-go)
 
 ### Codewalks
