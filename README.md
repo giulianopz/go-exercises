@@ -12,11 +12,16 @@
 - [How to Write Go Code](https://go.dev/doc/code)
 - [Effective Go](https://go.dev/doc/effective_go)
 - [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
+- [Practical Go](https://dave.cheney.net/practical-go)
+
+### Project Layout
+- [Understanding Package Visibility in Go](https://www.digitalocean.com/community/tutorials/understanding-package-visibility-in-go)
+- [Everything you need to know about Packages in Go](https://medium.com/rungo/everything-you-need-to-know-about-packages-in-go-b8bac62b74cc)
+- [Use internal packages to reduce your public API surface](https://dave.cheney.net/2019/10/06/use-internal-packages-to-reduce-your-public-api-surface)
 - [Standard Go Project Layout](https://github.com/golang-standards/project-layout)
 - [go-starter](https://github.com/allaboutapps/go-starter)
 - [Structuring Web Applications in Go](https://www.calhoun.io/structuring-web-applications-in-go/)
 - [Why is GO111MODULE everywhere, and everything about Go Modules](https://maelvls.dev/go111module-everywhere/)
-- [Practical Go](https://dave.cheney.net/practical-go)
 
 ### Codewalks
 - [First-Class Functions in Go](https://go.dev/doc/codewalk/functions/)
@@ -53,6 +58,10 @@
 - [Life of an HTTP request in a Go server](https://eli.thegreenplace.net/2021/life-of-an-http-request-in-a-go-server/)
 - [Go HTTPS servers with TLS](https://eli.thegreenplace.net/2021/go-https-servers-with-tls/)
 - [kin-openapi](https://github.com/getkin/kin-openapi)
+
+### Testing
+- [Go _test packages](https://jdkaplan.dev/thinkin-logs/2021-10-07/)
+- [Testing API Clients in Go](https://markphelps.me/posts/testing-api-clients-in-go/)
 
 ### Design Patterns
 - [Go Patterns](https://github.com/tmrts/go-patterns)
