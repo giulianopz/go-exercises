@@ -48,6 +48,7 @@
 - [Go Concurrency Patterns](https://www.youtube.com/watch?v=f6kdp27TYZs) ([slides](https://go.dev/talks/2012/concurrency.slide))
 - [Advanced Go Concurrency Patterns](https://www.youtube.com/watch?v=QDDwwePbDtw) ([slides](https://go.dev/talks/2013/advconc.slide))
 - [On concurrency in Go HTTP servers](https://eli.thegreenplace.net/2019/on-concurrency-in-go-http-servers)
+- [Use a sync.Mutex or a channel?](https://github.com/golang/go/wiki/MutexOrChannel)
 
 ### Web Programming
 - [Go for Web Development](https://go.dev/solutions/webdev)
