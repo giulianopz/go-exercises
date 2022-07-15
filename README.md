@@ -63,6 +63,8 @@
 ### Testing
 - [Go _test packages](https://jdkaplan.dev/thinkin-logs/2021-10-07/)
 - [Testing API Clients in Go](https://markphelps.me/posts/testing-api-clients-in-go/)
+- [Structuring Tests in Go](https://medium.com/@benbjohnson/structuring-tests-in-go-46ddee7a25c)
+- [File-driven testing in Go](https://eli.thegreenplace.net/2022/file-driven-testing-in-go/)
 
 ### Design Patterns
 - [Go Patterns](https://github.com/tmrts/go-patterns)
