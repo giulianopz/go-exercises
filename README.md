@@ -23,6 +23,7 @@
 - [go-starter](https://github.com/allaboutapps/go-starter)
 - [Structuring Web Applications in Go](https://www.calhoun.io/structuring-web-applications-in-go/)
 - [Why is GO111MODULE everywhere, and everything about Go Modules](https://maelvls.dev/go111module-everywhere/)
+- [How to Use a Private Go Module in Your Own Project](https://www.digitalocean.com/community/tutorials/how-to-use-a-private-go-module-in-your-own-project)
 
 ### Codewalks
 - [First-Class Functions in Go](https://go.dev/doc/codewalk/functions/)
@@ -60,6 +61,7 @@
 - [Life of an HTTP request in a Go server](https://eli.thegreenplace.net/2021/life-of-an-http-request-in-a-go-server/)
 - [Go HTTPS servers with TLS](https://eli.thegreenplace.net/2021/go-https-servers-with-tls/)
 - [kin-openapi](https://github.com/getkin/kin-openapi)
+- [Serve SwaggerUI within your Golang application](https://ribice.medium.com/serve-swaggerui-within-your-golang-application-5486748a5ed4)
 
 ### Testing
 - [Go _test packages](https://jdkaplan.dev/thinkin-logs/2021-10-07/)
