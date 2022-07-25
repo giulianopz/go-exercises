@@ -8,6 +8,7 @@
 - [Standard library](https://pkg.go.dev/std)
 - [Debugging](https://github.com/golang/vscode-go/blob/master/docs/debugging.md)
 - [An Overview of Go's Tooling](https://www.alexedwards.net/blog/an-overview-of-go-tooling#diagnosing-problems-and-making-optimizations)
+- [Defer, Panic, and Recover](https://go.dev/blog/defer-panic-and-recover)
 
 ### Best Practices
 - [How to Write Go Code](https://go.dev/doc/code)
@@ -54,7 +55,6 @@
 ### Web Programming
 - [Go for Web Development](https://go.dev/solutions/webdev)
 - [Writing Web Applications](https://go.dev/doc/articles/wiki/)
-- [Gin](https://gin-gonic.com/docs/)
 - [Learn Web Programming in Go by Examples](https://gowebexamples.com/)
 - [REST Servers in Go](https://eli.thegreenplace.net/2021/rest-servers-in-go-part-1-standard-library/)
 - [A real life use-case for generics in Go: API for client-side pagination](https://vladimir.varank.in/notes/2022/05/a-real-life-use-case-for-generics-in-go-api-for-client-side-pagination/)
@@ -62,6 +62,9 @@
 - [Go HTTPS servers with TLS](https://eli.thegreenplace.net/2021/go-https-servers-with-tls/)
 - [kin-openapi](https://github.com/getkin/kin-openapi)
 - [Serve SwaggerUI within your Golang application](https://ribice.medium.com/serve-swaggerui-within-your-golang-application-5486748a5ed4)
+- [Error handling in Go HTTP applications](https://www.joeshaw.org/error-handling-in-go-http-applications/)
+- [Gin](https://gin-gonic.com/docs/)
+  - [Gin binding in Go: A tutorial with examples](https://blog.logrocket.com/gin-binding-in-go-a-tutorial-with-examples/)
 
 ### Testing
 - [Go _test packages](https://jdkaplan.dev/thinkin-logs/2021-10-07/)
