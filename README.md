@@ -6,9 +6,9 @@
 - [Tutorials](https://go.dev/doc/tutorial/)
 - [The Go Programming Language Specification](https://go.dev/ref/spec)
 - [Standard library](https://pkg.go.dev/std)
-- [Debugging](https://github.com/golang/vscode-go/blob/master/docs/debugging.md)
 - [An Overview of Go's Tooling](https://www.alexedwards.net/blog/an-overview-of-go-tooling#diagnosing-problems-and-making-optimizations)
 - [Defer, Panic, and Recover](https://go.dev/blog/defer-panic-and-recover)
+- Debugging [1](https://github.com/golang/vscode-go/blob/master/docs/debugging.md)+[2](https://go.googlesource.com/vscode-go/+/refs/tags/v0.22.1-rc.1/docs/debugging.md)
 
 ### Best Practices
 - [How to Write Go Code](https://go.dev/doc/code)
@@ -64,7 +64,8 @@
 - [Serve SwaggerUI within your Golang application](https://ribice.medium.com/serve-swaggerui-within-your-golang-application-5486748a5ed4)
 - [Error handling in Go HTTP applications](https://www.joeshaw.org/error-handling-in-go-http-applications/)
 - [Gin](https://gin-gonic.com/docs/)
-  - [Gin binding in Go: A tutorial with examples](https://blog.logrocket.com/gin-binding-in-go-a-tutorial-with-examples/)
+  - [Gin binding in Go: A tutorial with examples](https://blog.logrocket.com/gin-binding-in-go-a-tutorial-with-examples/)ù
+  - [gin-gonic/contrib](https://github.com/gin-gonic/contrib)
 
 ### Testing
 - [Go _test packages](https://jdkaplan.dev/thinkin-logs/2021-10-07/)
